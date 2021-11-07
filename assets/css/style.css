@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+body * {
+    margin: 0;
+    border: 0;
+}
+
+h1, h2, p, h3, footer p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 3.125em;
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 1.563em;
+    font-weight: 300;
+    padding:0.8em 0.8em 0;
+}
+
+footer {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.titulo {
+    padding: 0.5em 0;
+}
+
+.iguana-principal img {
+background-image: url(assets/img/bg-header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+max-height: 810px;
+width: 100%
+
+
+}
+
+.desc_section_texto, .desc-section-iguana-1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.desc_section_texto {
+    width: 35%;
+    text-align: left;
+    padding: 3em 4em 4em 9.375em;
+}
+
+.desc-section-iguana-1 {
+    width: auto;
+    padding: 3em 9.375em 4em 4em;
+}
+
+.icons-section {
+    background-color: #1E1A13;
+    padding-top: 4em;
+    padding-bottom: 4em;
+} 
+
+.icono {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    padding: 2em 5em 0 5em;
+    width: 10%;
+}
+
+.iguana-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    padding: 3em 0.5em;
+}
+
+footer {
+    background-color: #1E1A13;
+    padding: 2em;
+}
